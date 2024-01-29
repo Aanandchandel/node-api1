@@ -73,7 +73,7 @@ res.status(200).json(produc);
 
 mongoose
   .connect(
-    "mongodb+srv://jacklinuxnd:p4CeG4LxCP8IdakF@cluster0.gkvajcw.mongodb.net/node-api?retryWrites=true&w=majority"
+    "mongodb+srv://jacklinuxnd:p4CeG4LxCP8ldakF@cluster0.gkvajcw.mongodb.net/node-api?retryWrites=true&w=majority"
   )
   .then(() => {
     app.listen(4000, (req, resp) => {
